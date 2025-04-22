@@ -1,6 +1,6 @@
 ## About Me
 
-👋 Hi there! I’m **[Your Name]**, a data‑driven problem‑solver with a strong foundation in mathematics and hands‑on experience in analytics.
+👋 Hi there! I’m **Anju Barai**, a data‑driven problem‑solver with a strong foundation in mathematics and hands‑on experience in analytics.
 
 - 🎓 **Education:**  
   Bachelor’s in Mathematics, Mumbai University (2022–2023)  
