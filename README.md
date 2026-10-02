@@ -248,5 +248,5 @@ I'm interested in MIS, reporting automation, BI and applied ML. Feel free to rea
 <br/>
 <img src="./assets/footer.svg" width="100%" alt="Thanks for visiting my profile" />
 <br/>
-<a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Anjub004&icon=0&color=0" alt="Profile views" /></a>
+<img src="https://komarev.com/ghpvc/?username=Anjub004&label=Profile%20views&color=0e7490&style=flat-square" alt="Profile views" />
 </div>
