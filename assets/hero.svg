@@ -1,114 +1,183 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
-  <title id="t">Anju Barai — MIS Analyst, Data Analyst, Automation</title>
-  <desc id="d">Animated banner with name, role and rotating taglines next to a small live-style dashboard.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Anju Barai — MIS Analyst | Data Analyst | Automation</title>
+  <desc id="d">Animated banner: name, roles and rotating taglines (Turning data into decisions, Automating recurring reports, Building smarter MIS systems), three facts (3+ years in data and MIS roles, 8 featured projects, 6 Power BI dashboards) and a live-style MIS dashboard.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A0F1E"/>
-      <stop offset=".55" stop-color="#0F1733"/>
-      <stop offset="1" stop-color="#1A1240"/>
+      <stop offset="0" stop-color="#070B18"/><stop offset=".5" stop-color="#0C1430"/><stop offset="1" stop-color="#170F3A"/>
     </linearGradient>
     <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22D3EE"/>
-      <stop offset=".5" stop-color="#3B82F6"/>
-      <stop offset="1" stop-color="#A78BFA"/>
+      <stop offset="0" stop-color="#22D3EE"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="220" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-260 0;-260 0;760 0" keyTimes="0;.55;1" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0" stop-color="#22D3EE" stop-opacity=".38"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glowC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".28"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
-    <radialGradient id="glowV"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".30"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/>
-    </pattern>
-    <clipPath id="card"><rect width="1200" height="340" rx="20"/></clipPath>
+    <radialGradient id="gC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".26"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gV"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".32"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#FFFFFF" stroke-opacity=".04"/></pattern>
+    <clipPath id="card"><rect width="1200" height="400" rx="22"/></clipPath>
+    <clipPath id="chart"><rect x="0" y="-8" width="344" height="148"/></clipPath>
+    <path id="trend" d="M0 104 C17 104 20 90 34 90 S54 98 68 98 S88 72 102 72 S122 80 136 80 S156 54 170 54 S190 64 204 64 S224 40 238 40 S258 50 272 50 S292 26 306 26 S330 30 344 30"/>
+    <path id="e1" d="M120 360 L330 300 L560 350"/>
+    <path id="e2" d="M560 350 L690 250 L760 120"/>
+    <path id="e3" d="M640 40 L690 250"/>
   </defs>
   <style>
     .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
     .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,'Courier New',monospace}
     .in{animation:in 1s cubic-bezier(.2,.7,.2,1) both}
-    .d1{animation-delay:.15s}.d2{animation-delay:.45s}.d3{animation-delay:.75s}.d4{animation-delay:1s}
-    @keyframes in{from{transform:translateX(-14px)}to{transform:none}}
+    .d1{animation-delay:.1s}.d2{animation-delay:.25s}.d3{animation-delay:.4s}.d4{animation-delay:.55s}.d5{animation-delay:.7s}
+    @keyframes in{from{transform:translateX(-16px)}to{transform:none}}
     .tag{opacity:0;animation:cyc 9s infinite}
     .g1{animation-delay:-.8s}.g2{animation-delay:2.2s}.g3{animation-delay:5.2s}
     @keyframes cyc{0%{opacity:0;transform:translateY(10px)}5%,29%{opacity:1;transform:none}34%,100%{opacity:0;transform:translateY(-10px)}}
-    .bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow 2.8s ease-in-out infinite alternate}
-    .b2{animation-delay:.35s}.b3{animation-delay:.7s}.b4{animation-delay:1.05s}.b5{animation-delay:1.4s}.b6{animation-delay:1.75s}
-    @keyframes grow{0%{transform:scaleY(.45)}100%{transform:scaleY(1)}}
-    .line{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 6s ease-in-out infinite}
-    @keyframes draw{0%{stroke-dashoffset:420}45%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-420}}
     .pulse{animation:pulse 2s ease-in-out infinite}
-    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-    .drift{animation:drift 14s ease-in-out infinite alternate}
-    @keyframes drift{to{transform:translate(40px,18px)}}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+    .node{animation:node 4s ease-in-out infinite}
+    .n2{animation-delay:-1s}.n3{animation-delay:-2s}.n4{animation-delay:-3s}
+    @keyframes node{0%,100%{opacity:.25}50%{opacity:.8}}
+    .drift{animation:drift 16s ease-in-out infinite alternate}
+    @keyframes drift{to{transform:translate(50px,20px)}}
+    .bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow 2.6s ease-in-out infinite alternate}
+    .b2{animation-delay:-.6s}.b3{animation-delay:-1.2s}.b4{animation-delay:-1.8s}
+    @keyframes grow{from{transform:scaleY(.5)}to{transform:scaleY(1)}}
+    .tick{fill:#34D399;animation:tick 4.5s infinite}
+    .t2{animation-delay:.5s}.t3{animation-delay:1s}
+    @keyframes tick{0%,8%{fill:#334155}14%,100%{fill:#34D399}}
+    .kpi{animation:kpi 6s ease-in-out infinite}
+    .k2{animation-delay:2s}.k3{animation-delay:4s}
+    @keyframes kpi{0%,100%{stroke-opacity:.25}15%{stroke-opacity:.9}35%{stroke-opacity:.25}}
     @media (prefers-reduced-motion:reduce){*{animation:none!important}.g1{opacity:1}}
   </style>
 
+  <!-- background -->
   <g clip-path="url(#card)">
-    <rect width="1200" height="340" fill="url(#bg)"/>
-    <rect width="1200" height="340" fill="url(#grid)"/>
-    <circle class="drift" cx="140" cy="40" r="260" fill="url(#glowC)"/>
-    <circle class="drift" cx="1080" cy="320" r="300" fill="url(#glowV)" style="animation-direction:alternate-reverse"/>
-
-    <!-- floating data points -->
-    <g fill="#67E8F9" opacity=".55">
-      <circle cx="0" cy="0" r="2"><animateMotion dur="11s" repeatCount="indefinite" path="M-10 300 C 200 240 380 330 640 260 S 1000 200 1210 250"/></circle>
-      <circle cx="0" cy="0" r="1.6"><animateMotion dur="15s" begin="-5s" repeatCount="indefinite" path="M-10 80 C 260 140 420 40 700 110 S 1000 60 1210 120"/></circle>
-      <circle cx="0" cy="0" r="1.8" fill="#C4B5FD"><animateMotion dur="13s" begin="-8s" repeatCount="indefinite" path="M-10 200 C 300 160 520 240 760 190 S 1050 230 1210 180"/></circle>
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+    <circle class="drift" cx="160" cy="30" r="300" fill="url(#gC)"/>
+    <circle class="drift" cx="1080" cy="390" r="340" fill="url(#gV)" style="animation-direction:alternate-reverse"/>
+    <!-- data network -->
+    <g stroke="#3B82F6" stroke-opacity=".14" fill="none">
+      <use xlink:href="#e1"/><use xlink:href="#e2"/><use xlink:href="#e3"/>
+      <path d="M330 300 L460 230 L560 350 M460 230 L640 40 M20 250 L120 360"/>
+    </g>
+    <g fill="#60A5FA">
+      <circle class="node" cx="120" cy="360" r="2.5"/><circle class="node n2" cx="330" cy="300" r="3"/>
+      <circle class="node n3" cx="560" cy="350" r="2.5"/><circle class="node n4" cx="690" cy="250" r="3"/>
+      <circle class="node n2" cx="460" cy="230" r="2"/><circle class="node" cx="640" cy="40" r="2.5"/>
+      <circle class="node n3" cx="20" cy="250" r="2"/>
+    </g>
+    <g fill="#67E8F9">
+      <circle r="2.2"><animateMotion dur="5s" repeatCount="indefinite"><mpath xlink:href="#e1"/></animateMotion></circle>
+      <circle r="2.2" fill="#C4B5FD"><animateMotion dur="4s" begin="-1.5s" repeatCount="indefinite"><mpath xlink:href="#e2"/></animateMotion></circle>
+      <circle r="1.8"><animateMotion dur="3.5s" begin="-.8s" repeatCount="indefinite"><mpath xlink:href="#e3"/></animateMotion></circle>
     </g>
   </g>
-  <rect x=".5" y=".5" width="1199" height="339" rx="20" fill="none" stroke="url(#brand)" stroke-opacity=".45"/>
+  <rect x=".5" y=".5" width="1199" height="399" rx="22" fill="none" stroke="url(#brand)" stroke-opacity=".5"/>
 
-  <!-- left: identity -->
+  <!-- identity -->
   <g class="sans">
     <g class="in d1">
-      <rect x="64" y="58" width="262" height="30" rx="15" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".45"/>
-      <circle class="pulse" cx="84" cy="73" r="5" fill="#34D399"/>
-      <text x="98" y="78.5" class="mono" font-size="13" letter-spacing="1.5" fill="#A5F3FC">MIS · DATA · AUTOMATION</text>
+      <rect x="64" y="50" width="262" height="30" rx="15" fill="#22D3EE" fill-opacity=".09" stroke="#22D3EE" stroke-opacity=".45"/>
+      <circle class="pulse" cx="84" cy="65" r="5" fill="#34D399"/>
+      <text x="98" y="70.5" class="mono" font-size="13" letter-spacing="1.5" fill="#A5F3FC">MIS · DATA · AUTOMATION</text>
     </g>
-    <text class="in d2" x="62" y="160" font-size="68" font-weight="800" letter-spacing="5" fill="url(#brand)">ANJU BARAI</text>
-    <text class="in d3" x="64" y="204" font-size="21" font-weight="600" letter-spacing="2.5" fill="#E2E8F0">MIS ANALYST  <tspan fill="#3B82F6">|</tspan>  DATA ANALYST  <tspan fill="#8B5CF6">|</tspan>  AUTOMATION</text>
+    <g class="in d2">
+      <text x="61" y="156" font-size="74" font-weight="800" letter-spacing="5" fill="url(#brand)">ANJU BARAI</text>
+      <text x="61" y="156" font-size="74" font-weight="800" letter-spacing="5" fill="url(#shine)">ANJU BARAI</text>
+    </g>
+    <text class="in d3" x="64" y="200" font-size="20" font-weight="600" letter-spacing="2.5" fill="#E2E8F0">MIS ANALYST  <tspan fill="#3B82F6">|</tspan>  DATA ANALYST  <tspan fill="#8B5CF6">|</tspan>  AUTOMATION</text>
     <g class="in d4">
-      <text x="64" y="262" class="mono" font-size="20" fill="#22D3EE">&gt;</text>
-      <g class="mono" font-size="20" fill="#CBD5E1">
-        <text class="tag g1" x="88" y="262">Turning data into decisions</text>
-        <text class="tag g2" x="88" y="262">Automating recurring reports</text>
-        <text class="tag g3" x="88" y="262">Building smarter MIS systems</text>
+      <text x="64" y="250" class="mono" font-size="19" fill="#22D3EE">&gt;</text>
+      <g class="mono" font-size="19" fill="#CBD5E1">
+        <text class="tag g1" x="88" y="250">Turning data into decisions</text>
+        <text class="tag g2" x="88" y="250">Automating recurring reports</text>
+        <text class="tag g3" x="88" y="250">Building smarter MIS systems</text>
+      </g>
+    </g>
+
+    <!-- facts -->
+    <g class="in d5">
+      <g transform="translate(64 286)">
+        <rect class="kpi" width="176" height="70" rx="12" fill="#0B1226" fill-opacity=".92" stroke="#22D3EE" stroke-opacity=".25"/>
+        <text x="18" y="36" font-size="27" font-weight="800" fill="#67E8F9">3+ yrs</text>
+        <text x="18" y="56" class="mono" font-size="12" letter-spacing=".6" fill="#94A3B8">DATA &amp; MIS ROLES</text>
+      </g>
+      <g transform="translate(254 286)">
+        <rect class="kpi k2" width="176" height="70" rx="12" fill="#0B1226" fill-opacity=".92" stroke="#3B82F6" stroke-opacity=".25"/>
+        <text x="18" y="36" font-size="27" font-weight="800" fill="#93C5FD">8</text>
+        <text x="18" y="56" class="mono" font-size="12" letter-spacing=".6" fill="#94A3B8">FEATURED PROJECTS</text>
+      </g>
+      <g transform="translate(444 286)">
+        <rect class="kpi k3" width="176" height="70" rx="12" fill="#0B1226" fill-opacity=".92" stroke="#8B5CF6" stroke-opacity=".25"/>
+        <text x="18" y="36" font-size="27" font-weight="800" fill="#C4B5FD">6</text>
+        <text x="18" y="56" class="mono" font-size="12" letter-spacing=".6" fill="#94A3B8">POWER BI DASHBOARDS</text>
       </g>
     </g>
   </g>
 
-  <!-- right: mini dashboard -->
-  <g transform="translate(800 56)"><g class="in d3">
-    <rect width="340" height="228" rx="16" fill="#0B1226" fill-opacity=".78" stroke="#334155"/>
-    <circle cx="20" cy="20" r="4" fill="#F87171"/><circle cx="34" cy="20" r="4" fill="#FBBF24"/><circle cx="48" cy="20" r="4" fill="#34D399"/>
-    <text x="320" y="24" text-anchor="end" class="mono" font-size="11" fill="#64748B">daily_mis.dash</text>
+  <!-- live-style dashboard -->
+  <g transform="translate(772 40)">
+    <g class="in d3">
+      <rect width="384" height="320" rx="18" fill="#0A1124" fill-opacity=".82" stroke="#334155"/>
+      <circle cx="22" cy="22" r="4.5" fill="#F87171"/><circle cx="38" cy="22" r="4.5" fill="#FBBF24"/><circle cx="54" cy="22" r="4.5" fill="#34D399"/>
+      <text x="74" y="26.5" class="mono" font-size="11.5" fill="#64748B">mis_overview.dash</text>
+      <rect x="318" y="12" width="48" height="20" rx="10" fill="#34D399" fill-opacity=".12" stroke="#34D399" stroke-opacity=".5"/>
+      <circle class="pulse" cx="330" cy="22" r="3.5" fill="#34D399"/>
+      <text x="338" y="26" class="sans" font-size="10" font-weight="700" letter-spacing="1" fill="#6EE7B7">LIVE</text>
 
-    <g class="sans">
-      <rect x="18" y="40" width="96" height="48" rx="10" fill="#22D3EE" fill-opacity=".08" stroke="#22D3EE" stroke-opacity=".3"/>
-      <text x="30" y="60" font-size="10" letter-spacing=".6" fill="#94A3B8">DATA QUALITY</text>
-      <rect x="30" y="68" width="72" height="6" rx="3" fill="#1E293B"/>
-      <rect x="30" y="68" width="66" height="6" rx="3" fill="#22D3EE"><animate attributeName="width" values="0;66;66" keyTimes="0;.4;1" dur="6s" repeatCount="indefinite"/></rect>
-      <rect x="122" y="40" width="96" height="48" rx="10" fill="#3B82F6" fill-opacity=".08" stroke="#3B82F6" stroke-opacity=".3"/>
-      <text x="134" y="60" font-size="10" letter-spacing="1" fill="#94A3B8">REPORTS</text>
-      <text x="134" y="79" font-size="12" font-weight="700" fill="#93C5FD">AUTOMATED</text>
-      <rect x="226" y="40" width="96" height="48" rx="10" fill="#8B5CF6" fill-opacity=".08" stroke="#8B5CF6" stroke-opacity=".3"/>
-      <text x="238" y="60" font-size="10" letter-spacing="1" fill="#94A3B8">SLA / TAT</text>
-      <circle class="pulse" cx="243" cy="75" r="4" fill="#34D399"/>
-      <text x="253" y="79" font-size="12" font-weight="700" fill="#C4B5FD">TRACKED</text>
-    </g>
+      <!-- trend chart -->
+      <g transform="translate(20 58)">
+        <text x="0" y="0" class="mono" font-size="10" letter-spacing="1.2" fill="#64748B">DAILY PERFORMANCE · TREND</text>
+        <g transform="translate(0 14)">
+          <path d="M0 132H344" stroke="#1E293B"/>
+          <path d="M0 88H344M0 44H344" stroke="#1E293B" stroke-dasharray="3 6"/>
+          <path d="M0 104 C17 104 20 90 34 90 S54 98 68 98 S88 72 102 72 S122 80 136 80 S156 54 170 54 S190 64 204 64 S224 40 238 40 S258 50 272 50 S292 26 306 26 S330 30 344 30 V132 H0Z" fill="url(#area)"/>
+          <use xlink:href="#trend" fill="none" stroke="url(#brand)" stroke-width="2.6" stroke-linecap="round"/>
+          <g clip-path="url(#chart)">
+            <g>
+              <animateMotion dur="7s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.85;1" calcMode="linear"><mpath xlink:href="#trend"/></animateMotion>
+              <line y1="-200" y2="200" stroke="#E2E8F0" stroke-opacity=".28" stroke-dasharray="3 4"/>
+              <circle r="9" fill="#22D3EE" fill-opacity=".2"/>
+              <circle r="4.5" fill="#F8FAFC" stroke="#22D3EE" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </g>
 
-    <g transform="translate(18 104)">
-      <path d="M0 104H304" stroke="#1E293B"/>
-      <path d="M0 70H304M0 36H304" stroke="#1E293B" stroke-dasharray="3 5"/>
-      <rect class="bar"    x="10"  y="44" width="26" height="60" rx="4" fill="#22D3EE" fill-opacity=".85"/>
-      <rect class="bar b2" x="60"  y="28" width="26" height="76" rx="4" fill="#38BDF8" fill-opacity=".85"/>
-      <rect class="bar b3" x="110" y="52" width="26" height="52" rx="4" fill="#3B82F6" fill-opacity=".85"/>
-      <rect class="bar b4" x="160" y="18" width="26" height="86" rx="4" fill="#6366F1" fill-opacity=".85"/>
-      <rect class="bar b5" x="210" y="34" width="26" height="70" rx="4" fill="#8B5CF6" fill-opacity=".85"/>
-      <rect class="bar b6" x="260" y="10" width="26" height="94" rx="4" fill="#A78BFA" fill-opacity=".85"/>
-      <path d="M23 60 L73 40 L123 66 L173 30 L223 44 L273 16 L273 104 L23 104Z" fill="url(#area)" opacity=".5"/>
-      <path class="line" d="M23 60 L73 40 L123 66 L173 30 L223 44 L273 16" fill="none" stroke="#F0ABFC" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <!-- mini tiles -->
+      <g transform="translate(20 214)" class="sans">
+        <g>
+          <rect width="106" height="88" rx="12" fill="#0F172A" stroke="#1E293B"/>
+          <circle cx="53" cy="38" r="20" fill="none" stroke="#1E293B" stroke-width="6"/>
+          <circle cx="53" cy="38" r="20" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round" stroke-dasharray="118 126" transform="rotate(-90 53 38)">
+            <animate attributeName="stroke-dasharray" values="118 126;96 126;118 126" dur="5s" repeatCount="indefinite"/>
+          </circle>
+          <text x="53" y="78" text-anchor="middle" class="mono" font-size="10" letter-spacing=".6" fill="#94A3B8">DATA QUALITY</text>
+        </g>
+        <g transform="translate(118 0)">
+          <rect width="106" height="88" rx="12" fill="#0F172A" stroke="#1E293B"/>
+          <g fill="#818CF8">
+            <rect class="bar" x="24" y="22" width="11" height="36" rx="2"/>
+            <rect class="bar b2" x="40" y="14" width="11" height="44" rx="2" fill="#6366F1"/>
+            <rect class="bar b3" x="56" y="28" width="11" height="30" rx="2" fill="#8B5CF6"/>
+            <rect class="bar b4" x="72" y="18" width="11" height="40" rx="2" fill="#A78BFA"/>
+          </g>
+          <text x="53" y="78" text-anchor="middle" class="mono" font-size="10" letter-spacing=".6" fill="#94A3B8">REPORTS</text>
+        </g>
+        <g transform="translate(236 0)">
+          <rect width="108" height="88" rx="12" fill="#0F172A" stroke="#1E293B"/>
+          <g class="mono" font-size="10" fill="#CBD5E1">
+            <circle class="tick" cx="18" cy="20" r="4"/><text x="28" y="23.5">ingest</text>
+            <circle class="tick t2" cx="18" cy="38" r="4"/><text x="28" y="41.5">validate</text>
+            <circle class="tick t3" cx="18" cy="56" r="4"/><text x="28" y="59.5">publish</text>
+          </g>
+          <text x="54" y="78" text-anchor="middle" class="mono" font-size="10" letter-spacing=".6" fill="#94A3B8">PIPELINE</text>
+        </g>
+      </g>
     </g>
-  </g></g>
+  </g>
 </svg>
