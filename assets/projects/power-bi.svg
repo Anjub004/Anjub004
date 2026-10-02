@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" width="560" height="250" role="img" aria-labelledby="t d">
+  <title id="t">Power BI Dashboards</title>
+  <desc id="d">Business Intelligence. Six interactive dashboards: Budget vs Sales, Retail Sales, School Data, Heart Disease, Titanic and Pokémon, each with KPIs, filters and drill-downs. Tech: Power BI, KPIs, Drill-downs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#121A36"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1"><stop offset="0" stop-color="#FACC15" stop-opacity=".22"/><stop offset="1" stop-color="#FACC15" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect width="560" height="250" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,'Courier New',monospace}
+    .run{stroke-dasharray:140 1472;animation:run 6s linear infinite}
+    @keyframes run{to{stroke-dashoffset:-1612}}
+    .pulse{animation:pulse 2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+    .spin{animation:spin 5s linear infinite}
+    @keyframes spin{to{transform:translate(7px,6px) rotate(360deg)}}
+    .grow{animation:pulse 2.4s ease-in-out infinite}
+    .dots circle{animation:pulse 1.2s ease-in-out infinite}
+    .dots circle:nth-child(2){animation-delay:.2s}.dots circle:nth-child(3){animation-delay:.4s}
+    .blink{animation:pulse 2.6s ease-in-out infinite}
+    .halo{animation:halo 3s ease-in-out infinite}
+    @keyframes halo{0%,100%{stroke-opacity:.25}50%{stroke-opacity:.8}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="560" height="250" fill="url(#bg)"/>
+    <circle cx="40" cy="40" r="240" fill="url(#glow)"/>
+  </g>
+  <rect x="1" y="1" width="558" height="248" rx="17" fill="none" stroke="#24304D"/>
+  <rect class="run" x="1" y="1" width="558" height="248" rx="17" fill="none" stroke="#FACC15" stroke-width="2" stroke-linecap="round" stroke-opacity=".9"/>
+
+  <rect class="halo" x="28" y="28" width="52" height="52" rx="14" fill="#FACC15" fill-opacity=".10" stroke="#FACC15"/>
+  <g transform="translate(54 54)" fill="none" stroke="#FACC15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-12" y="-12" width="24" height="24" rx="3"/><path class="grow" d="M-6 7V0M0 7V-6M6 7V-2"/></g>
+
+  <text x="96" y="47" class="mono" font-size="12" letter-spacing="1.6" fill="#FACC15">BUSINESS INTELLIGENCE</text>
+  <text x="96" y="76" class="sans" font-size="25" font-weight="700" fill="#F8FAFC">Power BI Dashboards</text>
+  
+  <g transform="translate(508 30)" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16L16 4M7 4h9v9"/></g>
+
+  <text x="28" y="124" class="sans" font-size="17" fill="#A8B3C7">Six interactive dashboards: Budget vs Sales, Retail</text><text x="28" y="148" class="sans" font-size="17" fill="#A8B3C7">Sales, School Data, Heart Disease, Titanic and</text><text x="28" y="172" class="sans" font-size="17" fill="#A8B3C7">Pokémon, each with KPIs, filters and drill-downs.</text>
+  <g transform="translate(28 196)"><rect width="86" height="28" rx="14" fill="#FACC15" fill-opacity=".10" stroke="#FACC15" stroke-opacity=".35"/><text x="43" y="18.5" text-anchor="middle" class="mono" font-size="13" fill="#E2E8F0">Power BI</text></g><g transform="translate(122 196)"><rect width="54" height="28" rx="14" fill="#FACC15" fill-opacity=".10" stroke="#FACC15" stroke-opacity=".35"/><text x="27" y="18.5" text-anchor="middle" class="mono" font-size="13" fill="#E2E8F0">KPIs</text></g><g transform="translate(184 196)"><rect width="111" height="28" rx="14" fill="#FACC15" fill-opacity=".10" stroke="#FACC15" stroke-opacity=".35"/><text x="56" y="18.5" text-anchor="middle" class="mono" font-size="13" fill="#E2E8F0">Drill-downs</text></g>
+</svg>
