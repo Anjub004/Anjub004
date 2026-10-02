@@ -23,32 +23,15 @@ I'm an **MIS & Data Analyst** who builds the systems behind the reports. I conne
 
 At work that mostly means **Google Sheets, Google Apps Script, SQL and Python**. Outside work I build open-source analytics tools and **machine learning projects** in NLP and computer vision. My background is in mathematics.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 **Experience**
 
-- **MIS Executive** · Cheers Hypermarket <br/><sub>Jul 2025 – Present · MIS reporting, workflow automation, daily performance dashboards</sub>
-- **MIS Analyst** · Rath Infotech <br/><sub>Nov 2024 – Jun 2025 · operational dashboards, reporting automation with Google Sheets & SQL</sub>
-- **Data Analyst** · ICICI Lombard <br/><sub>2023 – 2024 · customer-behaviour analysis for retention, Python & Excel</sub>
+- **MIS Executive** · Cheers Hypermarket · <sub>Jul 2025 – Present</sub><br/><sub>MIS reporting, workflow automation, daily performance dashboards</sub>
+- **MIS Analyst** · Rath Infotech · <sub>Nov 2024 – Jun 2025</sub><br/><sub>Operational dashboards, reporting automation with Google Sheets & SQL</sub>
+- **Data Analyst** · ICICI Lombard · <sub>2023 – 2024</sub><br/><sub>Customer-behaviour analysis for retention, Python & Excel</sub>
 
-</td>
-<td width="50%" valign="top">
-
-**Focus areas**
-
-- MIS reporting & reporting automation
-- Data validation, cleaning & data quality
-- Dashboards & business intelligence
-- Process automation with Apps Script & Python
-- Machine learning, NLP & computer vision
+**Focus areas:** MIS reporting & automation · data validation & quality · dashboards & BI · process automation with Apps Script & Python · machine learning, NLP & computer vision
 
 **Education:** Bachelor's in Mathematics, Mumbai University
-
-</td>
-</tr>
-</table>
 
 <div align="center">
 <img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami, role, core stack, projects and mission" />
