@@ -86,96 +86,21 @@ At work that mostly means **Google Sheets, Google Apps Script, SQL and Python**.
 
 ## Featured projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### [SmartMIS](https://github.com/Anjub004/smart-mis)
-<sub>MIS automation & analytics platform · in active development</sub>
+<a href="https://github.com/Anjub004/smart-mis"><img src="./assets/projects/smart-mis.svg" width="400" alt="SmartMIS: mis automation platform" /></a>
+<a href="https://github.com/Anjub004/retail-analytics-toolkit"><img src="./assets/projects/retail-analytics-toolkit.svg" width="400" alt="Retail Analytics Toolkit: retail analytics" /></a>
 
-Upload Excel/CSV data, validate and clean it, calculate KPIs and SLA/TAT, flag potential anomalies and publish formatted MIS reports from one configurable pipeline. Data-quality scoring, quarantine for bad rows and a full change log.
+<a href="https://github.com/Anjub004/Power-BI-Data-Analysis-Collection-"><img src="./assets/projects/power-bi.svg" width="400" alt="Power BI Dashboards: business intelligence" /></a>
+<a href="https://github.com/Anjub004/Tableau_Project"><img src="./assets/projects/tableau.svg" width="400" alt="Tableau Dashboards: data visualisation" /></a>
 
-`Python` `pandas` `SQLAlchemy` `Streamlit`
+<a href="https://github.com/Anjub004/smart-business-assistance"><img src="./assets/projects/smart-business-assistant.svg" width="400" alt="Smart Business Assistant: nlp · chatbot" /></a>
+<a href="https://github.com/Anjub004/NLP-CV-Project-"><img src="./assets/projects/nlp-cv.svg" width="400" alt="NLP &amp; Computer Vision: deep learning" /></a>
 
-</td>
-<td width="50%" valign="top">
+<a href="https://github.com/Anjub004/Vehicle_Claasification_Using_CNN"><img src="./assets/projects/vehicle-cnn.svg" width="400" alt="Vehicle Classification: computer vision" /></a>
+<a href="https://github.com/Anjub004/Ghibli_Style_Image_Converted"><img src="./assets/projects/ghibli-cyclegan.svg" width="400" alt="Ghibli-Style Converter: generative ai" /></a>
 
-### [Retail Analytics Toolkit](https://github.com/Anjub004/retail-analytics-toolkit)
-<sub>SQL + Python retail analysis</sub>
-
-Answers three retail questions: where stock is lost (shrinkage), whether visitors convert (footfall), and what will expire before it sells (short-expiry risk). Ships with a synthetic multi-branch dataset and auto-generated reports.
-
-`SQL` `SQLite` `Python` `pandas`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Power BI Data Analysis Collection](https://github.com/Anjub004/Power-BI-Data-Analysis-Collection-)
-<sub>Interactive dashboards</sub>
-
-Six Power BI dashboards: Budget vs Sales, Retail Sales, School Data, Heart Disease, Titanic Survival and Pokémon, each with KPIs, filters and drill-downs.
-
-`Power BI` `KPI dashboards`
-
-</td>
-<td width="50%" valign="top">
-
-### [Tableau Dashboard Collection](https://github.com/Anjub004/Tableau_Project)
-<sub>Interactive dashboards</sub>
-
-Tableau dashboards for Amazon shipping performance, Tesla stock price trends and UT Mart retail sales, built around KPIs, time-series trends and interactive filters.
-
-`Tableau` `Excel`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Smart Business Assistant](https://github.com/Anjub004/smart-business-assistance)
-<sub>NLP chatbot with analytics</sub>
-
-Streamlit chatbot that answers business FAQs and order queries using semantic intent detection, with a fallback for low-confidence inputs and a dashboard of intents and confidence.
-
-`Streamlit` `sentence-transformers` `scikit-learn`
-
-</td>
-<td width="50%" valign="top">
-
-### [NLP & Computer Vision Project](https://github.com/Anjub004/NLP-CV-Project-)
-<sub>Deep learning</sub>
-
-Tweet sentiment classification with SVM and Word2Vec, plus transfer learning for house image classification.
-
-`NLP` `Word2Vec` `Transfer learning`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Vehicle Classification (CNN)](https://github.com/Anjub004/Vehicle_Claasification_Using_CNN)
-<sub>Computer vision</sub>
-
-CNN classifier that distinguishes cars, trucks and other vehicles, with scripts for image preprocessing, training and evaluation.
-
-`TensorFlow` `Keras` `CNN`
-
-</td>
-<td width="50%" valign="top">
-
-### [Ghibli-Style Image Converter](https://github.com/Anjub004/Ghibli_Style_Image_Converted)
-<sub>Generative AI</sub>
-
-CycleGAN-based converter that turns photos into Ghibli-inspired artwork, served through a Gradio web interface and set up for Google Colab GPUs.
-
-`CycleGAN` `Gradio` `Colab`
-
-</td>
-</tr>
-</table>
+</div>
 
 <details>
 <summary><b>More projects</b></summary>
