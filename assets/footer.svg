@@ -11,9 +11,9 @@
     .w1{animation:wave 12s linear infinite}
     .w2{animation:wave 18s linear infinite reverse}
     @keyframes wave{from{transform:translateX(0)}to{transform:translateX(-1200px)}}
-    .in{opacity:0;animation:in 1.2s ease forwards .2s}
-    @keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1}}
+    .in{animation:in 1.2s ease both}
+    @keyframes in{from{transform:translateY(8px)}to{transform:none}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
   <g clip-path="url(#card)">
     <rect width="1200" height="170" fill="url(#bg)"/>
