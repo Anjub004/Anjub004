@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-labelledby="t d">
+  <title id="t">Data to insight pipeline</title>
+  <desc id="d">Animated pipeline: Data (CSV, Excel, Sheets) to SQL to Python to Transform (validate, clean) to Dashboard (Power BI, Sheets) to Insight. Data packets flow through each stage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#141A3A"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,'Courier New',monospace}
+    .flow{stroke-dasharray:6 10;animation:flow 1.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-16}}
+    .ring{opacity:.25;animation:hit 2.08s ease-out infinite;animation-delay:.42s}
+    .n2 .ring{animation-delay:1.5s}.n3 .ring{animation-delay:.5s}.n4 .ring{animation-delay:1.58s}.n5 .ring{animation-delay:.59s}.n6 .ring{animation-delay:1.67s}
+    @keyframes hit{0%,100%{opacity:.25}10%{opacity:1}45%{opacity:.25}}
+    .lbl{font-size:16px;font-weight:700;letter-spacing:1.5px;fill:#F1F5F9}
+    .sub{font-size:12px;fill:#94A3B8}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+
+  <rect width="1200" height="270" rx="18" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="1199" height="269" rx="18" fill="none" stroke="url(#brand)" stroke-opacity=".4"/>
+  <text x="36" y="44" class="mono" font-size="13" letter-spacing="2" fill="#64748B">// DATA → INSIGHT PIPELINE</text>
+
+  <!-- track -->
+  <path d="M40 150H1160" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+  <path class="flow" d="M40 150H1160" stroke="url(#brand)" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- packets (drawn under nodes so they enter and leave each stage) -->
+  <g filter="url(#glow)">
+    <circle r="6"><animateMotion dur="6.24s" repeatCount="indefinite" path="M40 150H1160"/><animate attributeName="fill" dur="6.24s" repeatCount="indefinite" values="#22D3EE;#3B82F6;#A78BFA;#34D399"/></circle>
+    <circle r="4.5"><animateMotion dur="6.24s" begin="-2.08s" repeatCount="indefinite" path="M40 150H1160"/><animate attributeName="fill" dur="6.24s" begin="-2.08s" repeatCount="indefinite" values="#22D3EE;#3B82F6;#A78BFA;#34D399"/></circle>
+    <circle r="4.5"><animateMotion dur="6.24s" begin="-4.16s" repeatCount="indefinite" path="M40 150H1160"/><animate attributeName="fill" dur="6.24s" begin="-4.16s" repeatCount="indefinite" values="#22D3EE;#3B82F6;#A78BFA;#34D399"/></circle>
+  </g>
+
+  <g class="sans" text-anchor="middle">
+    <!-- 1 DATA -->
+    <g class="n1" transform="translate(116 150)">
+      <rect class="ring" x="-80" y="-56" width="160" height="112" rx="16" fill="none" stroke="#22D3EE" stroke-width="2"/>
+      <rect x="-74" y="-50" width="148" height="100" rx="12" fill="#0F172A" stroke="#22D3EE" stroke-opacity=".55"/>
+      <g transform="translate(0 -24)" fill="none" stroke="#22D3EE" stroke-width="2">
+        <ellipse cx="0" cy="-8" rx="13" ry="4.5"/><path d="M-13 -8v16c0 2.5 5.8 4.5 13 4.5s13-2 13-4.5v-16M-13 0c0 2.5 5.8 4.5 13 4.5S13 2.5 13 0"/>
+      </g>
+      <text class="lbl" y="14">DATA</text><text class="sub" y="34">CSV · Excel · Sheets</text>
+    </g>
+    <!-- 2 SQL -->
+    <g class="n2" transform="translate(310 150)">
+      <rect class="ring" x="-80" y="-56" width="160" height="112" rx="16" fill="none" stroke="#38BDF8" stroke-width="2"/>
+      <rect x="-74" y="-50" width="148" height="100" rx="12" fill="#0F172A" stroke="#38BDF8" stroke-opacity=".55"/>
+      <g transform="translate(-14 -38)" fill="none" stroke="#38BDF8" stroke-width="1.8"><rect width="28" height="22" rx="3"/><path d="M0 7.5H28M0 14.5H28M10 0V22"/></g>
+      <text class="lbl" y="14">SQL</text><text class="sub" y="34">query · join · aggregate</text>
+    </g>
+    <!-- 3 PYTHON -->
+    <g class="n3" transform="translate(504 150)">
+      <rect class="ring" x="-80" y="-56" width="160" height="112" rx="16" fill="none" stroke="#3B82F6" stroke-width="2"/>
+      <rect x="-74" y="-50" width="148" height="100" rx="12" fill="#0F172A" stroke="#3B82F6" stroke-opacity=".55"/>
+      <text class="mono" y="-19" font-size="20" font-weight="700" fill="#60A5FA">{ }</text>
+      <text class="lbl" y="14">PYTHON</text><text class="sub" y="34">pandas · NumPy</text>
+    </g>
+    <!-- 4 TRANSFORM -->
+    <g class="n4" transform="translate(698 150)">
+      <rect class="ring" x="-80" y="-56" width="160" height="112" rx="16" fill="none" stroke="#6366F1" stroke-width="2"/>
+      <rect x="-74" y="-50" width="148" height="100" rx="12" fill="#0F172A" stroke="#6366F1" stroke-opacity=".55"/>
+      <path d="M-14 -38H14L4 -26V-16L-4 -12V-26Z" fill="none" stroke="#818CF8" stroke-width="2" stroke-linejoin="round"/>
+      <text class="lbl" y="14">TRANSFORM</text><text class="sub" y="34">validate · clean · KPI</text>
+    </g>
+    <!-- 5 DASHBOARD -->
+    <g class="n5" transform="translate(892 150)">
+      <rect class="ring" x="-80" y="-56" width="160" height="112" rx="16" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+      <rect x="-74" y="-50" width="148" height="100" rx="12" fill="#0F172A" stroke="#8B5CF6" stroke-opacity=".55"/>
+      <g transform="translate(-14 -14)" fill="#A78BFA"><rect x="0" y="-10" width="6" height="10" rx="1"/><rect x="10" y="-20" width="6" height="20" rx="1"/><rect x="20" y="-15" width="6" height="15" rx="1"/></g>
+      <text class="lbl" y="14">DASHBOARD</text><text class="sub" y="34">Power BI · Sheets</text>
+    </g>
+    <!-- 6 INSIGHT -->
+    <g class="n6" transform="translate(1086 150)">
+      <rect class="ring" x="-80" y="-56" width="160" height="112" rx="16" fill="none" stroke="#34D399" stroke-width="2"/>
+      <rect x="-74" y="-50" width="148" height="100" rx="12" fill="#0F172A" stroke="#34D399" stroke-opacity=".55"/>
+      <g transform="translate(0 -26)" fill="none" stroke="#34D399" stroke-width="2"><circle r="12"/><circle r="6"/><circle r="1.5" fill="#34D399"/></g>
+      <text class="lbl" y="14">INSIGHT</text><text class="sub" y="34">decision-ready</text>
+    </g>
+  </g>
+
+  <text x="600" y="248" text-anchor="middle" class="sans" font-size="13" fill="#64748B">raw extracts in · validated, decision-ready reporting out</text>
+</svg>
