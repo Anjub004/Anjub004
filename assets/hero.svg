@@ -26,11 +26,11 @@
   <style>
     .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
     .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,'Courier New',monospace}
-    .in{opacity:0;animation:in .9s cubic-bezier(.2,.7,.2,1) forwards}
+    .in{animation:in 1s cubic-bezier(.2,.7,.2,1) both}
     .d1{animation-delay:.15s}.d2{animation-delay:.45s}.d3{animation-delay:.75s}.d4{animation-delay:1s}
-    @keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    @keyframes in{from{transform:translateX(-14px)}to{transform:none}}
     .tag{opacity:0;animation:cyc 9s infinite}
-    .g2{animation-delay:3s}.g3{animation-delay:6s}
+    .g1{animation-delay:-.8s}.g2{animation-delay:2.2s}.g3{animation-delay:5.2s}
     @keyframes cyc{0%{opacity:0;transform:translateY(10px)}5%,29%{opacity:1;transform:none}34%,100%{opacity:0;transform:translateY(-10px)}}
     .bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow 2.8s ease-in-out infinite alternate}
     .b2{animation-delay:.35s}.b3{animation-delay:.7s}.b4{animation-delay:1.05s}.b5{animation-delay:1.4s}.b6{animation-delay:1.75s}
@@ -41,7 +41,7 @@
     @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
     .drift{animation:drift 14s ease-in-out infinite alternate}
     @keyframes drift{to{transform:translate(40px,18px)}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}.in,.g1{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.g1{opacity:1}}
   </style>
 
   <g clip-path="url(#card)">
